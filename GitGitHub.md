@@ -89,6 +89,10 @@ ls -a
 - confg inicial
 git config --global user.email "jefferson.santossilva22@gmail.com
 git config --global user.name Jefferson
+git config --list
+- modificando o user.email e name
+git config --global --unset user.email
+git config --global --unset user.name
 
 - git add
 git add*
@@ -101,6 +105,12 @@ git commit -m "commit inicial"
 - git clone
 git clone git@github.com:JeffersonSnjolly/clone-netflix.git
 
+- git remote
+git remote add origin https://github.com/JeffersonSnjolly/GIt_GIthub_com_teste.git
+git remove -v
+
+- git push
+git push origin master
 
 
 
